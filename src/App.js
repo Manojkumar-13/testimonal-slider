@@ -1,10 +1,17 @@
-import React from 'react'
+import React from 'react';
+import Review from './components/Review';
 
 const App = () => {
   return (
-    <div>
-      <h1>My Reviews</h1>
-    </div>
+    <main>
+      <div className="container">
+        <div className="title">
+          <h2>My Reviews</h2>
+          <div className="underline"></div>
+        </div>
+        <Review />
+      </div>
+    </main>
   )
 }
 
