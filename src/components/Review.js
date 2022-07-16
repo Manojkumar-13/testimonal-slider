@@ -5,7 +5,7 @@ import {FcPrevious,FcNext} from "react-icons/fc";
 
 const Review = () => { 
   const [index,setIndex] = useState(0);
-  const {id,image,name,job,text} = people[index];
+  const {image,name,job,text} = people[index];
   const randomPerson = () =>{
     setIndex(()=>{
       let newIndex =  Math.trunc(Math.random()*people.length);
